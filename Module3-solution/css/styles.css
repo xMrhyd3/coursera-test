@@ -1,0 +1,57 @@
+
+#header-nav {
+	background-color: #33cc33;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	color: #000000;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+h2 {
+	margin-bottom:50px;
+}
+
+.menu-item {
+	background-color: #cccccc;
+	margin-bottom: 10px;
+	margin-right: 2px;
+
+}
+
+.navbar-default .navbar-nav>li>a  {
+	color: #000000;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+}
+
+#sushi-item  {
+	color: #000000;
+	font-weight: bold;
+	border-bottom: none;
+}
+
+
+@media (min-width: 768px) {
+	#nav-list {
+		display: none;
+	}
+}
+
+@media (max-width: 767px){
+
+.navbar-brand {
+	padding-top: 10px;
+	height: 80px;
+}
+
+.navbar-brand h1 {
+	font-size: 50px;
+}
+}
+
